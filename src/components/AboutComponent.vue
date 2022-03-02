@@ -10,7 +10,7 @@
         export default{
             data(){
                 return{
-                    greetings:"About Page",
+                    greetings:"About Vue",
                     info:null
                 }
             },
