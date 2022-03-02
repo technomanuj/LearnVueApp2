@@ -16,7 +16,7 @@
             },
             mounted(){
                     axios
-                        .get('http://localhost:7071/api/users_get')
+                        .get('/api/users_get')
                         .then(response => (this.info = response))
             }
         }
