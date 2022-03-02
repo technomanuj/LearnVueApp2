@@ -16,7 +16,7 @@
             },
             mounted(){
                     axios
-                        .get('https://jsonplaceholder.typicode.com/users/2')
+                        .get('http://localhost:7071/api/users_get')
                         .then(response => (this.info = response))
             }
         }
